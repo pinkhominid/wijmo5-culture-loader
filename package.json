@@ -1,0 +1,35 @@
+{
+  "name": "wijmo5-culture-loader",
+  "version": "0.1.0",
+  "description": "Dynamically load/switch Wijmo 5 cultures",
+  "main": "src/wijmo5-culture-loader.js",
+  "scripts": {
+    "test": "standard && tape test/**/*.js | tap-spec",
+    "debug": "node --inspect-brk test/test.js"
+  },
+  "keywords": [
+    "wijmo",
+    "wijmo5",
+    "culture",
+    "cultures",
+    "loader",
+    "switcher",
+    "language",
+    "languages",
+    "translate",
+    "translation",
+    "i18n",
+    "internationalize",
+    "internationalization",
+    "globalize",
+    "globalization"
+  ],
+  "author": "John Ericson <john.ericson@tr.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^3.2.1",
+    "standard": "^10.0.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
