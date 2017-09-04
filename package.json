@@ -5,7 +5,15 @@
   "main": "src/wijmo5-culture-loader.js",
   "scripts": {
     "test": "standard && tape test/**/*.js | tap-spec",
-    "debug": "node --inspect-brk test/test.js"
+    "debug": "node --inspect-brk test/test.js",
+    "preversion": "npm t",
+    "postversion": "git push --follow-tags && npm publish"
+  },
+  "bugs": "https://github.com/pinkhominid/wijmo5-culture-loader/issues",
+  "homepage": "https://github.com/pinkhominid/wijmo5-culture-loader",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pinkhominid/wijmo5-culture-loader.git"
   },
   "keywords": [
     "wijmo",
