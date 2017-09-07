@@ -23,14 +23,7 @@
     "loader",
     "switcher",
     "language",
-    "languages",
-    "translate",
-    "translation",
-    "i18n",
-    "internationalize",
-    "internationalization",
-    "globalize",
-    "globalization"
+    "languages"
   ],
   "author": "John Ericson <john.ericson@tr.com>",
   "license": "ISC",
