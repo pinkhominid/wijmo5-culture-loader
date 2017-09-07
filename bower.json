@@ -1,0 +1,24 @@
+{
+  "name": "wijmo5-culture-loader",
+  "version": "0.1.0",
+  "description": "Dynamically load/switch Wijmo 5 cultures",
+  "main": "src/wijmo5-culture-loader.js",
+  "bugs": "https://github.com/pinkhominid/wijmo5-culture-loader/issues",
+  "homepage": "https://github.com/pinkhominid/wijmo5-culture-loader",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pinkhominid/wijmo5-culture-loader.git"
+  },
+  "keywords": [
+    "wijmo",
+    "wijmo5",
+    "culture",
+    "cultures",
+    "loader",
+    "switcher",
+    "language",
+    "languages"
+  ],
+  "author": "John Ericson <john.ericson@tr.com>",
+  "license": "ISC"
+}
