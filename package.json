@@ -25,7 +25,7 @@
     "language",
     "languages"
   ],
-  "author": "John Ericson <john.ericson@tr.com>",
+  "author": "John Ericson",
   "license": "ISC",
   "devDependencies": {
     "sinon": "^3.2.1",
