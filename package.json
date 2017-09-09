@@ -7,6 +7,7 @@
     "test": "standard && tape test/**/*.js | tap-spec",
     "debug": "node --inspect-brk test/test.js",
     "preversion": "npm t",
+    "version": "npm-bower-sync-ver && git add bower.json",
     "postversion": "git push --follow-tags && npm publish"
   },
   "bugs": "https://github.com/pinkhominid/wijmo5-culture-loader/issues",
@@ -28,6 +29,7 @@
   "author": "John Ericson",
   "license": "ISC",
   "devDependencies": {
+    "npm-bower-sync-ver": "^1.0.8",
     "sinon": "^3.2.1",
     "standard": "^10.0.3",
     "tap-spec": "^4.1.1",
