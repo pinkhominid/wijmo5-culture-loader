@@ -1,6 +1,6 @@
 const test = require('tape')
 const sinon = require('sinon')
-const loader = require('../src/wijmo5-culture-loader')
+const loader = require('../lib/wijmo5-culture-loader')
 
 test('test loadWijmo5Culture fn', t => {
   const scriptObj = {}
