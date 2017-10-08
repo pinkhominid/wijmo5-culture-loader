@@ -1,6 +1,6 @@
 {
   "name": "wijmo5-culture-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Dynamically load/switch Wijmo 5 cultures",
   "main": "lib/wijmo5-culture-loader.js",
   "scripts": {
